@@ -133,7 +133,7 @@ def analyze_files(file1, file2):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Usage: python compare.py <file1.py/pyc> <file2.py/pyc>")
+        print("Usage: python pycrosschecker.py <file1.py/pyc> <file2.py/pyc>")
         sys.exit(1)
 
     file1 = sys.argv[1]
@@ -142,3 +142,4 @@ if __name__ == "__main__":
     sim, lcs_len, w1, w2 = analyze_files(file1, file2)
     print(f"{file1} vs {file2} - LCS Similarity: {sim:.4f} "
           f"(LCS length: {lcs_len}, file1: {w1}, file2: {w2})")
+
