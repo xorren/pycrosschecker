@@ -26,7 +26,7 @@ To analyze `.exe` files, please extract `.pyc` files with external tools such as
 ## Installation
 
 ```bash
-git clone https://github.com/xorren/pycrosschecker.git
+git clone https://github.com/xorren/python-code-plagiarism-checker.git
 cd pycrosschecker
 ```
 
